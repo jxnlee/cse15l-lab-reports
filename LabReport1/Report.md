@@ -16,20 +16,20 @@
 6. If you're logging into your account for the first time, you will be prompted `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, type `yes` and then enter
 7. Type in your password when prompted
 8. Upon logging in and successfully remotely connecting, you will receive output similar to this:
-```
-Hello cs15lsp23if, you are currently logged into ieng6-202.ucsd.edu
+ ```
+ Hello cs15lsp23if, you are currently logged into ieng6-202.ucsd.edu
 
-You are using 0% CPU on this system
+ You are using 0% CPU on this system
 
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   12:30:01   9   0.04,  0.28,  0.25
-ieng6-202   12:30:01   14  1.58,  0.69,  0.38
-ieng6-203   12:30:01   7   0.26,  0.37,  0.27
+ Cluster Status 
+ Hostname     Time    #Users  Load  Averages  
+ ieng6-201   12:30:01   9   0.04,  0.28,  0.25
+ ieng6-202   12:30:01   14  1.58,  0.69,  0.38
+ ieng6-203   12:30:01   7   0.26,  0.37,  0.27
 
- 
-Thu Apr 06, 2023 12:33pm - Prepping cs15lsp23
-```
+
+ Thu Apr 06, 2023 12:33pm - Prepping cs15lsp23
+ ```
 *Note: Since I had difficulties trying to remotely connect to the server when writing this report (terminal saying that the connection was closed), I was only able to use copied and pasted output that I produced during the lab instead of using a new screenshot*
 ## Step 3: Trying Some Commands
 1. Test out some commands on your computer and on the remote computer
