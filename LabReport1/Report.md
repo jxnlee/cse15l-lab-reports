@@ -5,6 +5,7 @@
 ![VSCode Download Screen](VSCodeDownloadSS.png)
 2. Follow the instructions to complete the installation process and open VScode, the window should look similar to the image below
 ![VSCode Welcome Screen](VSCodeSS.png)
+
 *Note: As I already had Visual Studio Code installed on my computer, I did not need to follow these setup instructions and just opened the application directly*
 ## Step 2: Remotely Connecting
 1. If you're using a Windows computer, ensure that you have [Git for Windows](https://gitforwindows.org/) installed
