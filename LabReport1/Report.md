@@ -12,9 +12,12 @@
 ![Git for Windows Website](Git4WindowsSS.png)
 2. Once Git is installed, follow [these instructions from this post on Stackoverflow](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to begin using Bash in the VSCode terminal. This post on stackoverflow discusses how to set up Bash to be used in the VSCode terminal.
 3. Now you will want to access the VSCode terminal, to do that you can go to View -> Terminal or you can simply type Ctrl (or Command) + \`
-![View Terminal]
-4. Now you can write your commands into the terminal, when you see the `$` that is the convention for where you will be writing your commands
-5. To connect remotely to one of the computers in the CSE Basement (your sesrver), you first type this command into the terminal: `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where `xx`is replaced by the last 2 letters in your own course-specific account
+![View Terminal](VSCodeViewTerminalSS.png)
+4. Now your terminal will pop up and you can begin writing your commands into the terminal, when you see the `$` that is the convention for where you will be writing your commands. Your terminal should look similar to this screenshot (except with your own device account information):
+![VSCode Bash Terminal](VSCodeBashTerminalSS.png)
+5. To connect remotely to one of the computers in the CSE Basement (your sesrver), you first type this command into the terminal: `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where `xx`is replaced by the last 2 letters in your own course-specific account. 
+![Remote Server Login Prompt](RemoteServerLoginPromptSS.png)
+*Here is my screenshot of my attempt to log into my remote server and the prompt afterwards that asks for your own password. Here, my account is `cs15lsp23if`, but in your case you might have different letters for your account instead of `if`*
 6. If you're logging into your account for the first time, you will be prompted `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, type `yes` and then enter
 7. Type in your password when prompted
 8. Upon logging in and successfully remotely connecting, you will receive output similar to this:
