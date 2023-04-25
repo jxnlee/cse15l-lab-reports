@@ -5,6 +5,7 @@
 ![VSCode Download Screen](VSCodeDownloadSS.png)
 2. Follow the instructions to complete the installation process and open VScode, the window should look similar to the image below.
 ![VSCode Welcome Screen](VSCodeSS.png)
+3. In the next section, you will begin using the terminal in VSCode to connect to a remote server!
 
 *Note: As I already had Visual Studio Code installed on my computer, I did not need to follow these setup instructions and just opened the application directly*
 ## Step 2: Remotely Connecting
@@ -15,44 +16,34 @@
 ![View Terminal](VSCodeViewTerminalSS.png)
 4. Now your terminal will pop up and you can begin writing your commands into the terminal, when you see the `$` that is the convention for where you will be writing your commands. Your terminal should look similar to this screenshot (except with your own device account information):
 ![VSCode Bash Terminal](VSCodeBashTerminalSS.png)
-5. To connect remotely to one of the computers in the CSE Basement (your sesrver), you first type this command into the terminal: `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where `xx`is replaced by the last 2 letters in your own course-specific account. 
+5. To connect remotely to one of the computers in the CSE Basement (your sesrver), you first type this command into the terminal: `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where `xx`is replaced by the last 2 letters in your own course-specific account. Here is my screenshot of my attempt to log into my remote server and the prompt afterwards that asks for your own password. Here, my account is `cs15lsp23if`, but in your case you might have different letters for your account instead of `if`.
 ![Remote Server Login Prompt](RemoteServerLoginPromptSS.png)
-*Here is my screenshot of my attempt to log into my remote server and the prompt afterwards that asks for your own password. Here, my account is `cs15lsp23if`, but in your case you might have different letters for your account instead of `if`*
 6. If you're logging into your account for the first time, you will be prompted `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, type `yes` and then enter
-7. Type in your password when prompted
-8. Upon logging in and successfully remotely connecting, you will receive output similar to this:
- ```
-     Hello cs15lsp23if, you are currently logged into ieng6-202.ucsd.edu
-
-     You are using 0% CPU on this system
-
-     Cluster Status 
-     Hostname     Time    #Users  Load  Averages  
-     ieng6-201   12:30:01   9   0.04,  0.28,  0.25
-     ieng6-202   12:30:01   14  1.58,  0.69,  0.38
-     ieng6-203   12:30:01   7   0.26,  0.37,  0.27
-
-
-     Thu Apr 06, 2023 12:33pm - Prepping cs15lsp23
- ```
-*Note: Since I had difficulties trying to remotely connect to the server when writing this report (terminal saying that the connection was closed), I was only able to use copied and pasted output that I produced during the lab instead of using a new screenshot*
+7. Now you will see the prompt for you password, type it in (and don't worry if it looks like you aren't typiing in anything, just type in your password and press enter when you're finished).
+8. Once you've successfully logged in and are remotely connected to the server, you will receive output similar to the screenshot below.
+![Remote Server Login Output](RemoteServerLoginSS.png)
+9. If you see something similar, then congratulations! You're done remotely connecting and now you can move on to trying some commands in the terminal of your remote server. Note that from now on, you are navigating around the device of one of the computers in the CSE Basement and no longer your local device once you've logged into the server.
 ## Step 3: Trying Some Commands
 1. Test out some commands on your computer and on the remote computer
 2. Here are some commands you can try:
-* `cd`
-* `cd ~`
-* `ls`
-* `ls -lat`
-* `ls -a`
-* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23xx` (`xx` is the last 2 letters of someone else's account)
-* `pwd`
-* `mkdir`
-* `cp`
-* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+* `cd` *"Change Directory": This command will change your current directory to the directory of a given path following this command*
+* `cd ~` *Switches your current directory to the home directory*
+* `ls` *"List": Lists files and folders in the given path, defaulting to the current directory if no path is given*
+* `ls -lat` *Lists all files in the directory sorted by date*
+* `ls -a` *Lists all files int eh directory including hidden files*
+* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23xx` (`xx` is the last 2 letters of someone else's account) *This should list the files in the directory of another account, however if you test it out, you may see that you cannot access someone else's account*
+* `pwd` *"Print Working Directory": gets and shows your current directory*
+* `mkdir` *"Make Directory": allows you to create a directory of the given path*
+* `cp` *"Copy": allows you to copy files and directories to a given path destination*
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` *Copies the file of hello.txt to the home directory"*
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` *"Concatenate": reads out the data/text from a file (in this case, hello.txt) and outputs it into the terminal*
+3. Here's a demonstration of some of the commands above:
+![Demo Commands](DemoCommandsSS.png)
 ![Testing Commands](TestingCommandsSS.png)
 *An example of testing out some commands*
-3. When you are done testing commands, logout by typing Ctrl-D or `exit` in the terminal
+4. When you are done testing commands, you can logout of the remote server by typing Ctrl-D or `exit` in the terminal.
+5. That's all for the lab tutorial! You can now try navigating and manipulating directories and files in your local device or on the remote servers.
 
 
 
+*Note For Lab Report Resubmission: Responded to feedback by including screenshot of successful login to remote server, 
