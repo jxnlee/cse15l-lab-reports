@@ -1,17 +1,18 @@
 # Lab Report 1: Remote Access and File System
 ---
 ## Step 1: Installing VScode
-1. Go to this link: [the Visual Studio Code website](https://code.visualstudio.com/) and click download to install Visual Studio Code on your computer
+1. To have everything setup, you first want to make sure that you have a code editor set up, in this lab we are using Visual Studio Code, so if you don't have it downloaded already, you can download from this link to [the Visual Studio Code website](https://code.visualstudio.com/) and click download to install Visual Studio Code on your computer, the screen where you can find this will be similar to the screenshot below.
 ![VSCode Download Screen](VSCodeDownloadSS.png)
-2. Follow the instructions to complete the installation process and open VScode, the window should look similar to the image below
+2. Follow the instructions to complete the installation process and open VScode, the window should look similar to the image below.
 ![VSCode Welcome Screen](VSCodeSS.png)
 
 *Note: As I already had Visual Studio Code installed on my computer, I did not need to follow these setup instructions and just opened the application directly*
 ## Step 2: Remotely Connecting
-1. If you're using a Windows computer, ensure that you have [Git for Windows](https://gitforwindows.org/) installed
+1. Now with VSCode set up you can now try remotely connecting to one of the computers in the CSE Basement! First, if you're using a Windows computer, ensure that you have [Git for Windows](https://gitforwindows.org/) installed (go to the link, clink download, and follow the installation instructions).
 ![Git for Windows Website](Git4WindowsSS.png)
-2. Once Git is installed, follow [these instructions from this post on Stackoverflow](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to begin using Bash in the VSCode terminal
-3. Open the VSCode Terminal (by typing Ctrl or Command + \`) 
+2. Once Git is installed, follow [these instructions from this post on Stackoverflow](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to begin using Bash in the VSCode terminal. This post on stackoverflow discusses how to set up Bash to be used in the VSCode terminal.
+3. Now you will want to access the VSCode terminal, to do that you can go to View -> Terminal or you can simply type Ctrl (or Command) + \`
+![View Terminal]
 4. Now you can write your commands into the terminal, when you see the `$` that is the convention for where you will be writing your commands
 5. To connect remotely to one of the computers in the CSE Basement (your sesrver), you first type this command into the terminal: `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where `xx`is replaced by the last 2 letters in your own course-specific account
 6. If you're logging into your account for the first time, you will be prompted `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, type `yes` and then enter
