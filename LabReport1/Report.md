@@ -8,6 +8,8 @@
 3. In the next section, you will begin using the terminal in VSCode to connect to a remote server!
 
 *Note: As I already had Visual Studio Code installed on my computer, I did not need to follow these setup instructions and just opened the application directly*
+
+
 ## Step 2: Remotely Connecting
 1. Now with VSCode set up you can now try remotely connecting to one of the computers in the CSE Basement! First, if you're using a Windows computer, ensure that you have [Git for Windows](https://gitforwindows.org/) installed (go to the link, click download, and follow the installation instructions).
 ![Git for Windows Website](Git4WindowsSS.png)
@@ -23,6 +25,8 @@
 8. Once you've successfully logged in and are remotely connected to the server, you will receive output similar to the screenshot below.
 ![Remote Server Login Output](RemoteServerLoginSS.png)
 9. If you see something similar, then congratulations! You're done remotely connecting and now you can move on to trying some commands in the terminal of your remote server. Note that from now on, you are navigating around the device of one of the computers in the CSE Basement and no longer your local device once you've logged into the server.
+
+
 ## Step 3: Trying Some Commands
 1. Wrtiting commands in the terminal allows you to navigate through and manipulate files in your device. Here are some useful commands you can try using in both your local device and the device you just remotely connected to!
 2. Here are some commands you can try:
@@ -43,7 +47,6 @@
 *An example of testing out some commands*
 4. When you are done testing commands, you can logout of the remote server by typing Ctrl-D or `exit` in the terminal.
 5. That's all for the lab tutorial! You can now try navigating and manipulating directories and files in your local device or on the remote servers.
-
 
 
 *Note For Lab Report Resubmission: Responded to feedback by including screenshot of successful login to remote server, explaining what some of the commands do and demonstrating their behavior, and made my written steps more detailed and engaging with full sentences.*
