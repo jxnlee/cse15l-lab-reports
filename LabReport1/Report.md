@@ -1,4 +1,5 @@
 # Lab Report 1: Remote Access and File System
+
 ---
 ## Step 1: Installing VScode
 1. To have everything setup, you first want to make sure that you have a code editor set up, in this lab we are using Visual Studio Code, so if you don't have it downloaded already, you can download from this link to [the Visual Studio Code website](https://code.visualstudio.com/) and click download to install Visual Studio Code on your computer, the screen where you can find this will be similar to the screenshot below.
