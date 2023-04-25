@@ -24,7 +24,7 @@
 ![Remote Server Login Output](RemoteServerLoginSS.png)
 9. If you see something similar, then congratulations! You're done remotely connecting and now you can move on to trying some commands in the terminal of your remote server. Note that from now on, you are navigating around the device of one of the computers in the CSE Basement and no longer your local device once you've logged into the server.
 ## Step 3: Trying Some Commands
-1. Test out some commands on your computer and on the remote computer
+1. Wrtiting commands in the terminal allows you to navigate through and manipulate files in your device. Here are some useful commands you can try using in both your local device and the device you just remotely connected to!
 2. Here are some commands you can try:
 * `cd` *"Change Directory": This command will change your current directory to the directory of a given path following this command*
 * `cd ~` *Switches your current directory to the home directory*
@@ -46,4 +46,4 @@
 
 
 
-*Note For Lab Report Resubmission: Responded to feedback by including screenshot of successful login to remote server, 
+*Note For Lab Report Resubmission: Responded to feedback by including screenshot of successful login to remote server, explaining what some of the commands do and demonstrating their behavior, and made my written steps more detailed and engaging with full sentences.*
