@@ -70,4 +70,4 @@ static int[] reversed(int[] arr) {
 ## Part 3: What I've learned
 From my lab in week 2, I learned a lot about starting servers and how servers handle requests with changes to the URL. Furthermore, I have learned how behind the scenes, the information can be used as input to affect the information that is accessed and used in the pages displayed by the server. In this way, I understand more how software and web pages are able to interact with users in different ways.
 
-*Note for Lab Report Resubmission: I have saved and resubmitted my lab Report in the corrected format*
+*Note for Lab Report Resubmission: I have saved and resubmitted my lab Report in the corrected format such that the link appears in the bottom footer*
