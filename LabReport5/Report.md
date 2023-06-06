@@ -1,6 +1,7 @@
 # Lab Report 5: Debugging & Reflection
+---
 ## Part 1: Debugging Scenario
-1. Student Post:
+### 1. Student Post:
   * Environment: I am using a Windows 11 Computer and editing my code with VSCode and running it with bash script through the terminal
   * Symptom: When I try running grade.sh (for the grader project in lab 6) through the terminal, this is what I get: ![Symptom](SymptomSS.png) I am aware that the failure-inducing input is the file path: `grading-area/TestListExamples`. I want to run TestListExamples in the `grading-area` directory that it has been copied to but it can't seem to find and run the class. When I try getting rid of `grading-area/`, it also produces a symptom where it can't run the ListExamples class that should have been copid to `grading-area`.
   * Here are the commands I'm running and the file structure: 
@@ -10,13 +11,15 @@
      ![Structure](DirectoryStructureSS.png) 
      
      My working directory is the `/list-examples-grader` directory and the command I use to run the bash script is `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
-2. TA Response: You can't run the TestListExamples class from your current working directory `list-examples-grader`. If you want to run and compile the TestListExamples java file, you will need to change directory to `grading-area` before running and compiling them. Before that, since you want to run JUnit tests in the `grading-area` directory, you may want to also copy the `lib` directory into `grading-area`.
-3. Student Response: Ok I tried making those changes, and here is the output I got (which is the correct and expected output): 
+### 2. TA Response: 
+ You can't run the TestListExamples class from your current working directory `list-examples-grader`. If you want to run and compile the TestListExamples java file, you will need to change directory to `grading-area` before running and compiling them. Before that, since you want to run JUnit tests in the `grading-area` directory, you may want to also copy the `lib` directory into `grading-area`.
+### 3. Student Response: 
+ Ok I tried making those changes, and here is the output I got (which is the correct and expected output): 
 
    ![Correct Ouput](CorrectedOutputSS.png) 
    
    So the bug was that the script was attempting to run a class by the name of "grading-area/TestListExamples" rather than "TestExamples" as I would want. Since the desired class was in another directory, I needed to change the directory before running and compiling the tests. Also I needed to make sure that I recursively copied the lib folder so that the JUnit tests would work.
-4. Setup Info:
+### 4. Setup Info:
   * File & Directory Structure: 
   
      ![Structure](DirectoryStructureSS.png)
